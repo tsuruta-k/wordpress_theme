@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+/* (min-width: 768px) and (max-width: 991px) END */
+
+
+@media (max-width: 767px) {
+
+	/* COMMON */
+	.box_pd_xs,
+	.box_pd_sm,
+	.box_pd_md,
+	.box_pd_lg {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.box_pdt0 {
+		padding-top: 0;
+	}
+	.box_pdb0 {
+		padding-bottom: 0;
+	}
+	/* COMMON END */
+
+}
+/* (max-width: 767px) END */
+

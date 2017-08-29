@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+/* WordPress Native Styles */
+strong { font-weight: bold; }
+em { font-style: italic; }
+blockquote {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 40px;
+	-webkit-margin-end: 40px;
+}
+img.alignleft {
+	margin: 0 auto 0 0;
+}
+img.aligncenter {
+	display: block;
+	margin: 0 auto;
+}
+img.alignright {
+	display: block;
+	margin: 0 0 0 auto;
+}
+img[class*="wp-image-"],
+img[class*="attachment-"] {
+	height: auto;
+	max-width: 100%;
+}
+
+/*ALL*/
+body {
+	color: #333;
+	font-size: 14px;
+	line-height: 1.5;
+	font-family: "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" ,'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, 'メイリオ', Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+	font-family: "游明朝" , "Yu Mincho" , "游明朝体" , YuMincho , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+}
+a {
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+a, a:hover {
+	text-decoration: none;
+}
+a:hover, a:hover::before, a:hover::after {
+	opacity: 0.7;
+}
+a.i_block {
+	vertical-align: bottom;
+}
+
+
+/*#########################################
+				COMMON
+#########################################*/
+.box_pd_ss {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.box_pd_xs {
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+.box_pd_sm {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.box_pd_lg {
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+.box_pdt0 {
+	padding-top: 0;
+}
+.box_pdb0 {
+	padding-bottom: 0;
+}
+/*#########################################
+				COMMON END
+#########################################*/
+
+
+
+/*#########################################
+				MEDIA
+#########################################*/
+
+@media (max-width: 767px) {
+
+	/* COMMON */
+	.box_pd_xs,
+	.box_pd_sm,
+	.box_pd_md,
+	.box_pd_lg {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.box_pdt0 {
+		padding-top: 0;
+	}
+	.box_pdb0 {
+		padding-bottom: 0;
+	}
+	/* COMMON END */
+
+}
+/* (max-width: 767px) END */
+
+/*#########################################
+				MEDIA END
+#########################################*/
